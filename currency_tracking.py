@@ -1,6 +1,7 @@
 import requests
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
+from plyer import notification
 
 load_dotenv()
 
@@ -22,5 +23,12 @@ except requests.exceptions.HTTPError as http_err:
 except Exception as err:
     print(f'Other error occurred: {err}')
 
+def push_notification(rate):
+    # Display the notification
+    notification.notify(
+        title="Currency Tracker",
+        message=f"Current USD to THB rate: {rate}",
+        timeout=10  # Notification stays for 10 seconds
+    )
 
-
+push_notification(usd_to_thb)
