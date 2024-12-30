@@ -11,7 +11,7 @@ url = "https://api.fxratesapi.com/latest?api_key={api_key}&base=USD&currencies&r
 
 response = requests.request("GET", url) 
 
-# print(response.text) # use this command to see available currency.
+# print(response.text) # use this line to see available currency.
 try:
     response = requests.get(url)
     response.raise_for_status()  # Raises an HTTPError for bad responses
