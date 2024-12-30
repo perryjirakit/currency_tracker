@@ -52,13 +52,13 @@ I built this project for several reasons:
 
 1. Open **Task Scheduler**
 2. Create a new Task
-    ![Create Task](https://github.com/perryjirakit/currency_tracker/blob/main/Create%20Task.png?raw=true)
+    ![Create Task](https://github.com/perryjirakit/currency_tracker/blob/main/images/Create%20Task.png?raw=true)
 3. Setup the frequency for you notification in **Triggers Tab**
   - You can adjust the notification frequency to suit your needs.
   - For example, in my setup, I’ve configured the notifications to appear:
     1. Every time the system starts from a cold boot.
     2. Repeatedly every three hours after the initial notification.
-    ![New Triggers](https://github.com/perryjirakit/currency_tracker/blob/main/New%20Triggers.png?raw=true)
+    ![New Triggers](https://github.com/perryjirakit/currency_tracker/blob/main/images/New%20Triggers.png?raw=true)
 4. In **Actions Tab** 
   - Program/scripts
     Enter the path to your Python interpreter. For example:
@@ -75,7 +75,7 @@ I built this project for several reasons:
     ```sh
     c:/Users/User/currency_tracker/
     ```
-    ![New Action](https://github.com/perryjirakit/currency_tracker/blob/main/New%20Action.png?raw=true)
+    ![New Action](https://github.com/perryjirakit/currency_tracker/blob/main/images/New%20Action.png?raw=true)
   5. **Done!**
 #### For macOS
 
