@@ -8,7 +8,7 @@ This project is a lightweight currency tracking tool designed to provide users w
 
 Users can set their own notification frequency and input their API key. Note that the features available might depend on the plan you choose with the foreign exchange API. You can explore the available plans on the [FXRatesAPI](https://fxratesapi.com/pricing)
 
-## Why I Build This Project
+## Why I Built This Project
 
 I built this project for several reasons:
 
@@ -23,7 +23,7 @@ I built this project for several reasons:
 ### Requirements
 
 - [FXRatesAPI](https://fxratesapi.com/)
-- [pip](https://pypi.org/project/pip/)
+- [pip3](https://pypi.org/project/pip/)
 
 ### Installation
 
@@ -32,8 +32,14 @@ I built this project for several reasons:
    git clone https://github.com/perryjirakit/currency_tracker
    ```
 2. **Install the necessary Python Packages**
+   For Windows
    ```sh
    pip install -r requirements.txt
+   ```
+   For macOS
+   ```sh
+   pip3 install -r requirements.txt
+   pip3 install plyer pyobjus
    ```
 3. **Setup Your API key**
 - Open the `.env.example` file in the project directory.
