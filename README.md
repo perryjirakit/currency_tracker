@@ -32,15 +32,15 @@ I built this project for several reasons:
    git clone https://github.com/perryjirakit/currency_tracker
    ```
 2. **Install the necessary Python Packages**
-   For Windows
-   ```sh
-   pip install -r requirements.txt
-   ```
-   For macOS
-   ```sh
-   pip3 install -r requirements.txt
-   pip3 install plyer pyobjus
-   ```
+  - For Windows
+    ```sh
+    pip install -r requirements.txt
+    ```
+  - For macOS
+    ```sh
+    pip3 install -r requirements.txt
+    pip3 install plyer pyobjus
+    ```
 3. **Setup Your API key**
 - Open the `.env.example` file in the project directory.
 - Add your API key to the file:
